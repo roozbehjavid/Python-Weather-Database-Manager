@@ -20,10 +20,17 @@ The project is designed with a user-friendly CLI interface and includes features
 
 ## Prerequisites
 1. Python 3.x
-2. SQLite3
-3. Required Python libraries:
+2. SQLite3:
+   - Ensure you have SQLite installed on your system.
+   - Use the provided `create_table.py` script to set up the database and table.
+3. API Key:
+   - This project uses a weather API to fetch weather data. You will need an API key to use the application.
+   - Visit [Open Weather](https://openweathermap.org/) to create an account and obtain your free API key.
+4. Required Python libraries:
    - `tabulate`
 
-To install dependencies, run:
-```bash
-pip install tabulate
+## Running the Application
+To run the main menu script (`menu.py`), pass the following arguments via the command line:
+- `--dbname`: The name of the SQLite database file.
+- `--tablename`: The name of the table in the database (default: `weather`).
+- `--apikey`: Your API key from the Open Weather API.
