@@ -30,7 +30,8 @@ The project is designed with a user-friendly CLI interface and includes features
    - `tabulate`
 
 ## Running the Application
-To run the main menu script (`menu.py`), pass the following arguments via the command line:
+1. To run the main menu script (`menu.py`), pass the following arguments via the command line:
 - `--dbname`: The name of the SQLite database file.
 - `--tablename`: The name of the table in the database (default: `weather`).
 - `--apikey`: Your API key from the Open Weather API.
+2. Ensure all required modules are in the project directory before running the application.
